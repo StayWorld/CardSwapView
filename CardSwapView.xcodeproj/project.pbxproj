@@ -1,0 +1,651 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AF613D9230E7C42005EE897 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF613D8230E7C42005EE897 /* AppDelegate.m */; };
+		0AF613DC230E7C42005EE897 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF613DB230E7C42005EE897 /* ViewController.m */; };
+		0AF613DF230E7C42005EE897 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AF613DD230E7C42005EE897 /* Main.storyboard */; };
+		0AF613E1230E7C43005EE897 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AF613E0230E7C43005EE897 /* Assets.xcassets */; };
+		0AF613E4230E7C43005EE897 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AF613E2230E7C43005EE897 /* LaunchScreen.storyboard */; };
+		0AF613E7230E7C43005EE897 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF613E6230E7C43005EE897 /* main.m */; };
+		0AF613F1230E7C44005EE897 /* CardSwapViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF613F0230E7C44005EE897 /* CardSwapViewTests.m */; };
+		0AF613FC230E7C44005EE897 /* CardSwapViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF613FB230E7C44005EE897 /* CardSwapViewUITests.m */; };
+		0AF6140E230E7D52005EE897 /* CardDrapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF6140B230E7D51005EE897 /* CardDrapView.m */; };
+		0AF6140F230E7D52005EE897 /* CardDrapItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF6140C230E7D51005EE897 /* CardDrapItem.m */; };
+		99992C214205BF5FB1002295 /* libPods-CardSwapView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C7ECCC04B8ED178D8C86E8A /* libPods-CardSwapView.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0AF613ED230E7C44005EE897 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0AF613CC230E7C42005EE897 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AF613D3230E7C42005EE897;
+			remoteInfo = CardSwapView;
+		};
+		0AF613F8230E7C44005EE897 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0AF613CC230E7C42005EE897 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AF613D3230E7C42005EE897;
+			remoteInfo = CardSwapView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		038DFE2C7034D2633F073124 /* Pods-CardSwapView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CardSwapView.release.xcconfig"; path = "Target Support Files/Pods-CardSwapView/Pods-CardSwapView.release.xcconfig"; sourceTree = "<group>"; };
+		0AF613D4230E7C42005EE897 /* CardSwapView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardSwapView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AF613D7230E7C42005EE897 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0AF613D8230E7C42005EE897 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0AF613DA230E7C42005EE897 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0AF613DB230E7C42005EE897 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0AF613DE230E7C42005EE897 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0AF613E0230E7C43005EE897 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0AF613E3230E7C43005EE897 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0AF613E5230E7C43005EE897 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AF613E6230E7C43005EE897 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0AF613EC230E7C44005EE897 /* CardSwapViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardSwapViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AF613F0230E7C44005EE897 /* CardSwapViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardSwapViewTests.m; sourceTree = "<group>"; };
+		0AF613F2230E7C44005EE897 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AF613F7230E7C44005EE897 /* CardSwapViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardSwapViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AF613FB230E7C44005EE897 /* CardSwapViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardSwapViewUITests.m; sourceTree = "<group>"; };
+		0AF613FD230E7C44005EE897 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AF6140A230E7D51005EE897 /* CardDrapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardDrapView.h; sourceTree = "<group>"; };
+		0AF6140B230E7D51005EE897 /* CardDrapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardDrapView.m; sourceTree = "<group>"; };
+		0AF6140C230E7D51005EE897 /* CardDrapItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardDrapItem.m; sourceTree = "<group>"; };
+		0AF6140D230E7D51005EE897 /* CardDrapItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardDrapItem.h; sourceTree = "<group>"; };
+		2C7ECCC04B8ED178D8C86E8A /* libPods-CardSwapView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CardSwapView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		60CE86362429FF57025721DE /* Pods-CardSwapView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CardSwapView.debug.xcconfig"; path = "Target Support Files/Pods-CardSwapView/Pods-CardSwapView.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0AF613D1230E7C42005EE897 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99992C214205BF5FB1002295 /* libPods-CardSwapView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AF613E9230E7C44005EE897 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AF613F4230E7C44005EE897 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AF613CB230E7C42005EE897 = {
+			isa = PBXGroup;
+			children = (
+				0AF613D6230E7C42005EE897 /* CardSwapView */,
+				0AF613EF230E7C44005EE897 /* CardSwapViewTests */,
+				0AF613FA230E7C44005EE897 /* CardSwapViewUITests */,
+				0AF613D5230E7C42005EE897 /* Products */,
+				18564130418B2FDBFE35754A /* Pods */,
+				E8240475475FB3597B4F113E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0AF613D5230E7C42005EE897 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0AF613D4230E7C42005EE897 /* CardSwapView.app */,
+				0AF613EC230E7C44005EE897 /* CardSwapViewTests.xctest */,
+				0AF613F7230E7C44005EE897 /* CardSwapViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0AF613D6230E7C42005EE897 /* CardSwapView */ = {
+			isa = PBXGroup;
+			children = (
+				0AF61409230E7C76005EE897 /* Class */,
+				0AF613D7230E7C42005EE897 /* AppDelegate.h */,
+				0AF613D8230E7C42005EE897 /* AppDelegate.m */,
+				0AF613DA230E7C42005EE897 /* ViewController.h */,
+				0AF613DB230E7C42005EE897 /* ViewController.m */,
+				0AF613DD230E7C42005EE897 /* Main.storyboard */,
+				0AF613E0230E7C43005EE897 /* Assets.xcassets */,
+				0AF613E2230E7C43005EE897 /* LaunchScreen.storyboard */,
+				0AF613E5230E7C43005EE897 /* Info.plist */,
+				0AF613E6230E7C43005EE897 /* main.m */,
+			);
+			path = CardSwapView;
+			sourceTree = "<group>";
+		};
+		0AF613EF230E7C44005EE897 /* CardSwapViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				0AF613F0230E7C44005EE897 /* CardSwapViewTests.m */,
+				0AF613F2230E7C44005EE897 /* Info.plist */,
+			);
+			path = CardSwapViewTests;
+			sourceTree = "<group>";
+		};
+		0AF613FA230E7C44005EE897 /* CardSwapViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0AF613FB230E7C44005EE897 /* CardSwapViewUITests.m */,
+				0AF613FD230E7C44005EE897 /* Info.plist */,
+			);
+			path = CardSwapViewUITests;
+			sourceTree = "<group>";
+		};
+		0AF61409230E7C76005EE897 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				0AF6140D230E7D51005EE897 /* CardDrapItem.h */,
+				0AF6140C230E7D51005EE897 /* CardDrapItem.m */,
+				0AF6140A230E7D51005EE897 /* CardDrapView.h */,
+				0AF6140B230E7D51005EE897 /* CardDrapView.m */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		18564130418B2FDBFE35754A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				60CE86362429FF57025721DE /* Pods-CardSwapView.debug.xcconfig */,
+				038DFE2C7034D2633F073124 /* Pods-CardSwapView.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E8240475475FB3597B4F113E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2C7ECCC04B8ED178D8C86E8A /* libPods-CardSwapView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0AF613D3230E7C42005EE897 /* CardSwapView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AF61400230E7C44005EE897 /* Build configuration list for PBXNativeTarget "CardSwapView" */;
+			buildPhases = (
+				4D6F88D320AB398FE33314FC /* [CP] Check Pods Manifest.lock */,
+				0AF613D0230E7C42005EE897 /* Sources */,
+				0AF613D1230E7C42005EE897 /* Frameworks */,
+				0AF613D2230E7C42005EE897 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CardSwapView;
+			productName = CardSwapView;
+			productReference = 0AF613D4230E7C42005EE897 /* CardSwapView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0AF613EB230E7C44005EE897 /* CardSwapViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AF61403230E7C44005EE897 /* Build configuration list for PBXNativeTarget "CardSwapViewTests" */;
+			buildPhases = (
+				0AF613E8230E7C44005EE897 /* Sources */,
+				0AF613E9230E7C44005EE897 /* Frameworks */,
+				0AF613EA230E7C44005EE897 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0AF613EE230E7C44005EE897 /* PBXTargetDependency */,
+			);
+			name = CardSwapViewTests;
+			productName = CardSwapViewTests;
+			productReference = 0AF613EC230E7C44005EE897 /* CardSwapViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0AF613F6230E7C44005EE897 /* CardSwapViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AF61406230E7C44005EE897 /* Build configuration list for PBXNativeTarget "CardSwapViewUITests" */;
+			buildPhases = (
+				0AF613F3230E7C44005EE897 /* Sources */,
+				0AF613F4230E7C44005EE897 /* Frameworks */,
+				0AF613F5230E7C44005EE897 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0AF613F9230E7C44005EE897 /* PBXTargetDependency */,
+			);
+			name = CardSwapViewUITests;
+			productName = CardSwapViewUITests;
+			productReference = 0AF613F7230E7C44005EE897 /* CardSwapViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0AF613CC230E7C42005EE897 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = slash;
+				TargetAttributes = {
+					0AF613D3230E7C42005EE897 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					0AF613EB230E7C44005EE897 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 0AF613D3230E7C42005EE897;
+					};
+					0AF613F6230E7C44005EE897 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 0AF613D3230E7C42005EE897;
+					};
+				};
+			};
+			buildConfigurationList = 0AF613CF230E7C42005EE897 /* Build configuration list for PBXProject "CardSwapView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0AF613CB230E7C42005EE897;
+			productRefGroup = 0AF613D5230E7C42005EE897 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0AF613D3230E7C42005EE897 /* CardSwapView */,
+				0AF613EB230E7C44005EE897 /* CardSwapViewTests */,
+				0AF613F6230E7C44005EE897 /* CardSwapViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0AF613D2230E7C42005EE897 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AF613E4230E7C43005EE897 /* LaunchScreen.storyboard in Resources */,
+				0AF613E1230E7C43005EE897 /* Assets.xcassets in Resources */,
+				0AF613DF230E7C42005EE897 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AF613EA230E7C44005EE897 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AF613F5230E7C44005EE897 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4D6F88D320AB398FE33314FC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CardSwapView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0AF613D0230E7C42005EE897 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AF613DC230E7C42005EE897 /* ViewController.m in Sources */,
+				0AF6140E230E7D52005EE897 /* CardDrapView.m in Sources */,
+				0AF613E7230E7C43005EE897 /* main.m in Sources */,
+				0AF6140F230E7D52005EE897 /* CardDrapItem.m in Sources */,
+				0AF613D9230E7C42005EE897 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AF613E8230E7C44005EE897 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AF613F1230E7C44005EE897 /* CardSwapViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AF613F3230E7C44005EE897 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AF613FC230E7C44005EE897 /* CardSwapViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0AF613EE230E7C44005EE897 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0AF613D3230E7C42005EE897 /* CardSwapView */;
+			targetProxy = 0AF613ED230E7C44005EE897 /* PBXContainerItemProxy */;
+		};
+		0AF613F9230E7C44005EE897 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0AF613D3230E7C42005EE897 /* CardSwapView */;
+			targetProxy = 0AF613F8230E7C44005EE897 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0AF613DD230E7C42005EE897 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0AF613DE230E7C42005EE897 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0AF613E2230E7C43005EE897 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0AF613E3230E7C43005EE897 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0AF613FE230E7C44005EE897 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0AF613FF230E7C44005EE897 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0AF61401230E7C44005EE897 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60CE86362429FF57025721DE /* Pods-CardSwapView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CardSwapView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.slash.-RACDemo.CardSwapView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0AF61402230E7C44005EE897 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 038DFE2C7034D2633F073124 /* Pods-CardSwapView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CardSwapView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.slash.-RACDemo.CardSwapView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0AF61404230E7C44005EE897 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CardSwapViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.slash.-RACDemo.CardSwapViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CardSwapView.app/CardSwapView";
+			};
+			name = Debug;
+		};
+		0AF61405230E7C44005EE897 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CardSwapViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.slash.-RACDemo.CardSwapViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CardSwapView.app/CardSwapView";
+			};
+			name = Release;
+		};
+		0AF61407230E7C44005EE897 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CardSwapViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.slash.-RACDemo.CardSwapViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CardSwapView;
+			};
+			name = Debug;
+		};
+		0AF61408230E7C44005EE897 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CardSwapViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.slash.-RACDemo.CardSwapViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CardSwapView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0AF613CF230E7C42005EE897 /* Build configuration list for PBXProject "CardSwapView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AF613FE230E7C44005EE897 /* Debug */,
+				0AF613FF230E7C44005EE897 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AF61400230E7C44005EE897 /* Build configuration list for PBXNativeTarget "CardSwapView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AF61401230E7C44005EE897 /* Debug */,
+				0AF61402230E7C44005EE897 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AF61403230E7C44005EE897 /* Build configuration list for PBXNativeTarget "CardSwapViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AF61404230E7C44005EE897 /* Debug */,
+				0AF61405230E7C44005EE897 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AF61406230E7C44005EE897 /* Build configuration list for PBXNativeTarget "CardSwapViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AF61407230E7C44005EE897 /* Debug */,
+				0AF61408230E7C44005EE897 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0AF613CC230E7C42005EE897 /* Project object */;
+}
